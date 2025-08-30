@@ -1,0 +1,133 @@
+/* General Styling */
+
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  background: linear-gradient(135deg, #ff99cc, #66b3ff);
+
+  color: #222;
+
+  text-align: center;
+
+}
+
+/* Header */
+
+header {
+
+  background: #ff66b2;
+
+  color: white;
+
+  padding: 20px;
+
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+
+}
+
+header nav a {
+
+  margin: 0 15px;
+
+  color: white;
+
+  font-weight: bold;
+
+  text-decoration: none;
+
+}
+
+header nav a:hover {
+
+  color: yellow;
+
+}
+
+/* Card Style */
+
+.card {
+
+  background: white;
+
+  margin: 20px auto;
+
+  padding: 20px;
+
+  border-radius: 15px;
+
+  width: 80%;
+
+  max-width: 700px;
+
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+}
+
+/* Projects */
+
+.project {
+
+  margin: 15px 0;
+
+  padding: 10px;
+
+  background: #f0f8ff;
+
+  border-radius: 10px;
+
+}
+
+/* Contact Form */
+
+form input, form textarea {
+
+  width: 90%;
+
+  padding: 10px;
+
+  margin: 8px 0;
+
+  border-radius: 8px;
+
+  border: 1px solid #ccc;
+
+}
+
+form button {
+
+  padding: 10px 20px;
+
+  background: #66b3ff;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+}
+
+form button:hover {
+
+  background: #3385ff;
+
+}
+
+/* Footer */
+
+footer {
+
+  background: #66b3ff;
+
+  padding: 15px;
+
+  color: white;
+
+  margin-top: 20px;
+
+}
